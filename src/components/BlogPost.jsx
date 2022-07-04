@@ -55,8 +55,8 @@ const BlogPost = ({ type }) => {
           <div className="blog-list clearfix">
             {dataBlogList.map((item, index) => {
               return (
-                <>
-                  <div className="blog-box row" key={index}>
+                <React.Fragment key={index}>
+                  <div className="blog-box row">
                     <div className="col-md-4">
                       <div className="post-media">
                         <a href="tech-single.html" title="">
@@ -100,7 +100,7 @@ const BlogPost = ({ type }) => {
                     </div>
                   </div>
                   <hr className="invis" />
-                </>
+                </React.Fragment>
               );
             })}
           </div>

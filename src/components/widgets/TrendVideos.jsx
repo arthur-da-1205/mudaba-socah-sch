@@ -8,8 +8,8 @@ const TrendVideos = () => {
       <div className="trend-videos">
         {dataTrendVideos.map((item, index) => {
           return (
-            <>
-              <div className="blog-box" key={index}>
+            <React.Fragment key={index}>
+              <div className="blog-box">
                 <div className="post-media">
                   <a href="tech-single.html" title="">
                     <img src={item.imgUrl} alt="" className="img-fluid" />
@@ -28,7 +28,7 @@ const TrendVideos = () => {
               </div>
 
               <hr className="invis" />
-            </>
+            </React.Fragment>
           );
         })}
       </div>
