@@ -17,18 +17,6 @@ const BlogDetail = () => {
             <div class="col-lg-9 col-md-12 col-sm-12 col-xs-12">
               <div class="page-wrapper">
                 <div class="blog-title-area text-center">
-                  <ol class="breadcrumb hidden-xs-down">
-                    <li class="breadcrumb-item">
-                      <a href="#">Home</a>
-                    </li>
-                    <li class="breadcrumb-item">
-                      <a href="#">Blog</a>
-                    </li>
-                    <li class="breadcrumb-item active">
-                      Top 10 phone applications and 2017 mobile design awards
-                    </li>
-                  </ol>
-
                   <span class="color-orange">
                     <a href="tech-category-01.html" title="">
                       Technology
@@ -327,20 +315,6 @@ const BlogDetail = () => {
                   </div>
                 </div>
 
-                <div class="row">
-                  <div class="col-lg-12">
-                    <div class="banner-spot clearfix">
-                      <div class="banner-img">
-                        <img
-                          src="assets/upload/banner_01.jpg"
-                          alt=""
-                          class="img-fluid"
-                        />
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
                 <hr class="invis1" />
 
                 <div class="custombox prevnextpost clearfix">
@@ -542,95 +516,6 @@ const BlogDetail = () => {
                               20 July, 2017
                             </a>
                           </small>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <hr class="invis1" />
-
-                <div class="custombox clearfix">
-                  <h4 class="small-title">3 Comments</h4>
-                  <div class="row">
-                    <div class="col-lg-12">
-                      <div class="comments-list">
-                        <div class="media">
-                          <a class="media-left" href="#">
-                            <img
-                              src="assets/upload/author.jpg"
-                              alt=""
-                              class="rounded-circle"
-                            />
-                          </a>
-                          <div class="media-body">
-                            <h4 class="media-heading user_name">
-                              Amanda Martines <small>5 days ago</small>
-                            </h4>
-                            <p>
-                              Exercitation photo booth stumptown tote bag
-                              Banksy, elit small batch freegan sed. Craft beer
-                              elit seitan exercitation, photo booth et 8-bit
-                              kale chips proident chillwave deep v laborum.
-                              Aliquip veniam delectus, Marfa eiusmod Pinterest
-                              in do umami readymade swag. Selfies iPhone
-                              Kickstarter, drinking vinegar jean.
-                            </p>
-                            <a href="#" class="btn btn-primary btn-sm">
-                              Reply
-                            </a>
-                          </div>
-                        </div>
-                        <div class="media">
-                          <a class="media-left" href="#">
-                            <img
-                              src="assets/upload/author_01.jpg"
-                              alt=""
-                              class="rounded-circle"
-                            />
-                          </a>
-                          <div class="media-body">
-                            <h4 class="media-heading user_name">
-                              Baltej Singh <small>5 days ago</small>
-                            </h4>
-
-                            <p>
-                              Drinking vinegar stumptown yr pop-up artisan sunt.
-                              Deep v cliche lomo biodiesel Neutra selfies.
-                              Shorts fixie consequat flexitarian four loko
-                              tempor duis single-origin coffee. Banksy, elit
-                              small.
-                            </p>
-
-                            <a href="#" class="btn btn-primary btn-sm">
-                              Reply
-                            </a>
-                          </div>
-                        </div>
-                        <div class="media last-child">
-                          <a class="media-left" href="#">
-                            <img
-                              src="assets/upload/author_02.jpg"
-                              alt=""
-                              class="rounded-circle"
-                            />
-                          </a>
-                          <div class="media-body">
-                            <h4 class="media-heading user_name">
-                              Marie Johnson <small>5 days ago</small>
-                            </h4>
-                            <p>
-                              Kickstarter seitan retro. Drinking vinegar
-                              stumptown yr pop-up artisan sunt. Deep v cliche
-                              lomo biodiesel Neutra selfies. Shorts fixie
-                              consequat flexitarian four loko tempor duis
-                              single-origin coffee. Banksy, elit small.
-                            </p>
-
-                            <a href="#" class="btn btn-primary btn-sm">
-                              Reply
-                            </a>
-                          </div>
                         </div>
                       </div>
                     </div>
