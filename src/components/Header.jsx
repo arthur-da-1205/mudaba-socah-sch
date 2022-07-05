@@ -43,16 +43,12 @@ const Header = () => {
                 </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="tech-category-03.html">
-                  Reviews
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="tech-contact.html">
+                <Link className="nav-link" to="/contact">
                   Contact Us
-                </a>
+                </Link>
               </li>
             </ul>
+
             <ul className="navbar-nav mr-2">
               <li className="nav-item">
                 <a className="nav-link" href="#">
