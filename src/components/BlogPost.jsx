@@ -3,6 +3,7 @@ import { dataBlogList } from "../data/PostBlogList";
 import { dataPostMasonry } from "../data/PostMasonry";
 import { dataBlogBox } from "../data/PostBlogBox";
 import { dataVideoBlog } from "../data/PostVideoBlog";
+import { Link } from "react-router-dom";
 
 const BlogPost = ({ type }) => {
   const PostList = () => {
@@ -26,9 +27,9 @@ const BlogPost = ({ type }) => {
                                 </a>
                               </span>
                               <h4>
-                                <a href="tech-single.html" title="">
+                                <Link to="/blogdetail" title="">
                                   {item.postTitle}
-                                </a>
+                                </Link>
                               </h4>
                               <small>
                                 <a href="tech-single.html" title="">
@@ -70,9 +71,9 @@ const BlogPost = ({ type }) => {
 
                     <div className="blog-meta big-meta col-md-8">
                       <h4>
-                        <a href="tech-single.html" title="">
+                        <Link to="/blogdetail" title="">
                           {item.postTitle}
-                        </a>
+                        </Link>
                       </h4>
                       <p>{item.desc}</p>
                       <small className="firstsmall">
@@ -131,9 +132,9 @@ const BlogPost = ({ type }) => {
                           </a>
                         </span>
                         <h4>
-                          <a href="tech-single.html" title="">
+                          <Link to="/blogdetail" title="">
                             {item.postTitle}
-                          </a>
+                          </Link>
                         </h4>
                         <p>{item.desc}</p>
                         <small>
@@ -204,9 +205,9 @@ const BlogPost = ({ type }) => {
                           </ul>
                         </div>
                         <h4>
-                          <a href="tech-single.html" title="">
+                          <Link to="/blogdetail" title="">
                             {item.postTitle}
-                          </a>
+                          </Link>
                         </h4>
                         <p>{item.desc}</p>
                         <small>
