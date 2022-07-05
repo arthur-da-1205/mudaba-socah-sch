@@ -2,6 +2,7 @@ import React from "react";
 import { dataBlogList } from "../data/PostBlogList";
 import { dataPostMasonry } from "../data/PostMasonry";
 import { dataBlogBox } from "../data/PostBlogBox";
+import { dataVideoBlog } from "../data/PostVideoBlog";
 
 const BlogPost = ({ type }) => {
   const PostList = () => {
@@ -153,6 +154,86 @@ const BlogPost = ({ type }) => {
                       </div>
                     </div>
                   </div>
+                );
+              })}
+            </div>
+          </div>
+        );
+
+      case "video-blog":
+        return (
+          <div class="page-wrapper">
+            <div class="blog-custom-build">
+              {dataVideoBlog.map((item, index) => {
+                return (
+                  <React.Fragment key={index}>
+                    <div class="blog-box">
+                      <div class="post-media">
+                        <a href="tech-single.html" title="">
+                          <img src={item.videoUrl} alt="" class="img-fluid" />
+                          <div class="hovereffect">
+                            <span class="videohover"></span>
+                          </div>
+                        </a>
+                      </div>
+
+                      <div class="blog-meta big-meta text-center">
+                        <div class="post-sharing">
+                          <ul class="list-inline">
+                            <li>
+                              <a href="#" class="fb-button btn btn-primary">
+                                <i class="fa fa-facebook"></i>{" "}
+                                <span class="down-mobile">
+                                  Share on Facebook
+                                </span>
+                              </a>
+                            </li>
+                            <li>
+                              <a href="#" class="tw-button btn btn-primary">
+                                <i class="fa fa-twitter"></i>{" "}
+                                <span class="down-mobile">
+                                  Tweet on Twitter
+                                </span>
+                              </a>
+                            </li>
+                            <li>
+                              <a href="#" class="gp-button btn btn-primary">
+                                <i class="fa fa-google-plus"></i>
+                              </a>
+                            </li>
+                          </ul>
+                        </div>
+                        <h4>
+                          <a href="tech-single.html" title="">
+                            {item.postTitle}
+                          </a>
+                        </h4>
+                        <p>{item.desc}</p>
+                        <small>
+                          <a href="tech-category.html" title="">
+                            {item.category}
+                          </a>
+                        </small>
+                        <small>
+                          <a href="tech-single.html" title="">
+                            {item.datePost}
+                          </a>
+                        </small>
+                        <small>
+                          <a href="tech-author.html" title="">
+                            {item.author}
+                          </a>
+                        </small>
+                        <small>
+                          <a href="#" title="">
+                            <i class="fa fa-eye"></i> {item.views}
+                          </a>
+                        </small>
+                      </div>
+                    </div>
+
+                    <hr class="invis" />
+                  </React.Fragment>
                 );
               })}
             </div>
