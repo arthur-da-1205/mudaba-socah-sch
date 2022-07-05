@@ -1,0 +1,111 @@
+export const dataBlogBox = [
+  {
+    id: 1,
+    imgUrl: "assets/upload/tech_menu_01.jpg",
+    category: "Gadgets",
+    postTitle: "We visited the ancient theater in Macedonia",
+    desc: "Aenean interdum arcu blandit, vehicula magna non, placerat elit. Mauris et pharetratortor. Suspendissea sodales urna. In at augue elit. Vivamus enim nibh.",
+    datePost: "14 JULY, 2017",
+    author: "BY JACK",
+    views: "2887",
+  },
+
+  {
+    id: 2,
+    imgUrl: "assets/upload/tech_menu_02.jpg",
+    category: "Gadgets",
+    postTitle: "To visit the fairy chimneys and antique cities in Turkey",
+    desc: "Aenean interdum arcu blandit, vehicula magna non, placerat elit. Mauris et pharetratortor. Suspendissea sodales urna. In at augue elit. Vivamus enim nibh.",
+    datePost: "14 JULY, 2017",
+    author: "BY JACK",
+    views: "2887",
+  },
+
+  {
+    id: 3,
+    imgUrl: "assets/upload/tech_menu_03.jpg",
+    category: "Gadgets",
+    postTitle: "Travel to the oldest city in the world in Mardin",
+    desc: "Aenean interdum arcu blandit, vehicula magna non, placerat elit. Mauris et pharetratortor. Suspendissea sodales urna. In at augue elit. Vivamus enim nibh.",
+    datePost: "14 JULY, 2017",
+    author: "BY JACK",
+    views: "2887",
+  },
+
+  {
+    id: 4,
+    imgUrl: "assets/upload/tech_menu_04.jpg",
+    category: "Gadgets",
+    postTitle: "We went to a city made of stone houses",
+    desc: "Aenean interdum arcu blandit, vehicula magna non, placerat elit. Mauris et pharetratortor. Suspendissea sodales urna. In at augue elit. Vivamus enim nibh.",
+    datePost: "14 JULY, 2017",
+    author: "BY JACK",
+    views: "2887",
+  },
+
+  {
+    id: 5,
+    imgUrl: "assets/upload/tech_menu_05.jpg",
+    category: "Gadgets",
+    postTitle: "New mosque in Germany and we have video for you",
+    desc: "Aenean interdum arcu blandit, vehicula magna non, placerat elit. Mauris et pharetratortor. Suspendissea sodales urna. In at augue elit. Vivamus enim nibh.",
+    datePost: "14 JULY, 2017",
+    author: "BY JACK",
+    views: "2887",
+  },
+
+  {
+    id: 6,
+    imgUrl: "assets/upload/tech_menu_06.jpg",
+    category: "Gadgets",
+    postTitle: "A unique beauty from the night view of Istanbul",
+    desc: "Aenean interdum arcu blandit, vehicula magna non, placerat elit. Mauris et pharetratortor. Suspendissea sodales urna. In at augue elit. Vivamus enim nibh.",
+    datePost: "14 JULY, 2017",
+    author: "BY JACK",
+    views: "2887",
+  },
+
+  {
+    id: 7,
+    imgUrl: "assets/upload/tech_menu_07.jpg",
+    category: "Gadgets",
+    postTitle: "The most beautiful bridge designs ever",
+    desc: "Aenean interdum arcu blandit, vehicula magna non, placerat elit. Mauris et pharetratortor. Suspendissea sodales urna. In at augue elit. Vivamus enim nibh.",
+    datePost: "14 JULY, 2017",
+    author: "BY JACK",
+    views: "2887",
+  },
+
+  {
+    id: 8,
+    imgUrl: "assets/upload/tech_menu_08.jpg",
+    category: "Gadgets",
+    postTitle: "A new door to the mysterious history",
+    desc: "Aenean interdum arcu blandit, vehicula magna non, placerat elit. Mauris et pharetratortor. Suspendissea sodales urna. In at augue elit. Vivamus enim nibh.",
+    datePost: "14 JULY, 2017",
+    author: "BY JACK",
+    views: "2887",
+  },
+
+  {
+    id: 9,
+    imgUrl: "assets/upload/tech_menu_09.jpg",
+    category: "Gadgets",
+    postTitle: "The story of white ages in Pamukkale",
+    desc: "Aenean interdum arcu blandit, vehicula magna non, placerat elit. Mauris et pharetratortor. Suspendissea sodales urna. In at augue elit. Vivamus enim nibh.",
+    datePost: "14 JULY, 2017",
+    author: "BY JACK",
+    views: "2887",
+  },
+
+  {
+    id: 10,
+    imgUrl: "assets/upload/tech_menu_10.jpg",
+    category: "Gadgets",
+    postTitle: "Milestone stone statue of 200 years ago",
+    desc: "Aenean interdum arcu blandit, vehicula magna non, placerat elit. Mauris et pharetratortor. Suspendissea sodales urna. In at augue elit. Vivamus enim nibh.",
+    datePost: "14 JULY, 2017",
+    author: "BY JACK",
+    views: "2887",
+  },
+];

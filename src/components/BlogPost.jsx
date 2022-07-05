@@ -1,6 +1,7 @@
 import React from "react";
 import { dataBlogList } from "../data/PostBlogList";
 import { dataPostMasonry } from "../data/PostMasonry";
+import { dataBlogBox } from "../data/PostBlogBox";
 
 const BlogPost = ({ type }) => {
   const PostList = () => {
@@ -103,6 +104,58 @@ const BlogPost = ({ type }) => {
                 </React.Fragment>
               );
             })}
+          </div>
+        );
+
+      case "blog-box":
+        return (
+          <div class="blog-grid-system">
+            <div class="row">
+              {dataBlogBox.map((item, index) => {
+                return (
+                  <div class="col-md-6" key={index}>
+                    <div class="blog-box">
+                      <div class="post-media">
+                        <a href="tech-single.html" title="">
+                          <img src={item.imgUrl} alt="" class="img-fluid" />
+                          <div class="hovereffect">
+                            <span></span>
+                          </div>
+                        </a>
+                      </div>
+                      <div class="blog-meta big-meta">
+                        <span class="color-orange">
+                          <a href="tech-category-01.html" title="">
+                            {item.category}
+                          </a>
+                        </span>
+                        <h4>
+                          <a href="tech-single.html" title="">
+                            {item.postTitle}
+                          </a>
+                        </h4>
+                        <p>{item.desc}</p>
+                        <small>
+                          <a href="tech-single.html" title="">
+                            {item.datePost}
+                          </a>
+                        </small>
+                        <small>
+                          <a href="tech-author.html" title="">
+                            {item.author}
+                          </a>
+                        </small>
+                        <small>
+                          <a href="tech-single.html" title="">
+                            <i class="fa fa-eye"></i> {item.views}
+                          </a>
+                        </small>
+                      </div>
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
           </div>
         );
 

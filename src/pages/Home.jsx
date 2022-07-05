@@ -11,46 +11,44 @@ import TrendVideos from "../components/widgets/TrendVideos";
 
 const Home = () => {
   return (
-    <React.Fragment>
-      <div id="wrapper">
-        <Header />
+    <div id="wrapper">
+      <Header />
 
-        <BlogPost type="masonry" />
+      <BlogPost type="masonry" />
 
-        <section className="section">
-          <div className="container">
-            <div className="row">
-              <div className="col-lg-9 col-md-12 col-sm-12 col-xs-12">
-                <div className="page-wrapper">
-                  <RecentNews />
-                  <BlogPost type="blog-list" />
-                </div>
-
-                <hr className="invis" />
-
-                <Pagination />
+      <section className="section">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-9 col-md-12 col-sm-12 col-xs-12">
+              <div className="page-wrapper">
+                <RecentNews />
+                <BlogPost type="blog-list" />
               </div>
 
-              <div className="col-lg-3 col-md-12 col-sm-12 col-xs-12">
-                <div className="sidebar">
-                  <TrendVideos />
+              <hr className="invis" />
 
-                  <PopularPost />
+              <Pagination />
+            </div>
 
-                  <RecentReviews />
+            <div className="col-lg-3 col-md-12 col-sm-12 col-xs-12">
+              <div className="sidebar">
+                <TrendVideos />
 
-                  <FollowUs />
-                </div>
+                <PopularPost />
+
+                <RecentReviews />
+
+                <FollowUs />
               </div>
             </div>
           </div>
-        </section>
+        </div>
+      </section>
 
-        <Footer />
+      <Footer />
 
-        <div className="dmtop">Scroll to Top</div>
-      </div>
-    </React.Fragment>
+      <div className="dmtop">Scroll to Top</div>
+    </div>
   );
 };
 
