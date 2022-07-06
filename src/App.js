@@ -6,6 +6,7 @@ import Videos from "./pages/Videos";
 import Contact from "./pages/Contact";
 import BlogDetail from "./pages/BlogDetail";
 import Product from "./pages/Product";
+import SingleProduct from "./pages/SingleProduct";
 
 function App() {
   return (
@@ -16,7 +17,8 @@ function App() {
         <Route path="/videos" element={<Videos />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/blogdetail" element={<BlogDetail />} />
-        <Route path="/product" element={<Product />} />
+        <Route path="/products" element={<Product />} />
+        <Route path="/products/:id" element={<SingleProduct />} />
       </Routes>
     </div>
   );
