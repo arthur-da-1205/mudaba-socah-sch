@@ -241,6 +241,27 @@ const BlogPost = ({ type }) => {
           </div>
         );
 
+      case "gallery":
+        return (
+          <div class="blog-grid-system">
+            <div class="row">
+              {dataBlogBox.map((item, index) => {
+                return (
+                  <div class="col-md-6" key={index}>
+                    <div class="blog-box">
+                      <div class="post-media">
+                        <a href="tech-single.html" title="">
+                          <img src={item.imgUrl} alt="" class="img-fluid" />
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
+          </div>
+        );
+
       default:
         break;
     }

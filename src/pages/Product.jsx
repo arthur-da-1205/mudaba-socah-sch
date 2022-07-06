@@ -1,17 +1,23 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
+import Skeleton from "react-loading-skeleton";
+import "react-loading-skeleton/dist/skeleton.css";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
+import BreadCrumb from "../components/BreadCrumb";
 
-function Product() {
+const Product = () => {
   const [data, setData] = useState([]);
+  const [loading, setLoading] = useState(false);
   let componentMounted = true;
 
   useEffect(() => {
     const getProducts = async () => {
+      setLoading(true);
       const response = await fetch("https://fakestoreapi.com/products");
       if (componentMounted) {
         setData(await response.clone().json());
+        setLoading(false);
       }
 
       return () => {
@@ -22,35 +28,54 @@ function Product() {
     getProducts();
   }, []);
 
+  const Loading = () => {
+    return (
+      <>
+        <div className="col-md-3">
+          <Skeleton height={400} />
+        </div>
+        <div className="col-md-3">
+          <Skeleton height={400} />
+        </div>
+        <div className="col-md-3">
+          <Skeleton height={400} />
+        </div>
+        <div className="col-md-3">
+          <Skeleton height={400} />
+        </div>
+      </>
+    );
+  };
+
   const ShowProducts = () => {
     return (
       <>
         {data.map((product) => {
           return (
-            <>
+            <React.Fragment key={product.id}>
               <div className="col-md-3 mb-4">
-                <div class="card h-100 text-center p-4" key={product.id}>
+                <div className="card h-100 text-center p-4" key={product.id}>
                   <img
                     src={product.image}
-                    class="card-img-top"
+                    className="card-img-top"
                     alt={product.title}
                     height={"250px"}
                   />
-                  <div class="card-body">
-                    <h5 class="card-title mb-0">
+                  <div className="card-body">
+                    <h5 className="card-title mb-0">
                       {product.title.substring(0, 16)}...
                     </h5>
-                    <p class="card-text fw-bold lead">${product.price}</p>
+                    <p className="card-text fw-bold lead">${product.price}</p>
                     <Link
                       to={`/products/${product.id}`}
-                      class="btn btn-outline-dark"
+                      className="btn btn-outline-dark"
                     >
                       Buy Now
                     </Link>
                   </div>
                 </div>
               </div>
-            </>
+            </React.Fragment>
           );
         })}
       </>
@@ -60,21 +85,20 @@ function Product() {
   return (
     <div>
       <Header />
-      <div className="container my-5 py-5">
-        <div className="row">
-          <div className="col-12 mb-5">
-            <h1 className="display-6 fw-bolder text-center">Products</h1>
-            <hr />
-          </div>
-        </div>
 
+      <BreadCrumb
+        name="Product"
+        icon="fa-shopping-bag"
+        desc="Nulla felis eros, varius sit amet volutpat non."
+      />
+      <div className="container my-5 py-5">
         <div className="row justify-content-center">
-          <ShowProducts />
+          {loading ? <Loading /> : <ShowProducts />}
         </div>
       </div>
       <Footer />
     </div>
   );
-}
+};
 
 export default Product;

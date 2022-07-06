@@ -1,6 +1,6 @@
 import React from "react";
 
-const BreadCrumb = ({ name, icon, desc, breadcrumbItem1, breadcrumbItem2 }) => {
+const BreadCrumb = ({ name, icon, desc }) => {
   return (
     <div class="page-title lb single-wrapper">
       <div class="container">
@@ -11,7 +11,7 @@ const BreadCrumb = ({ name, icon, desc, breadcrumbItem1, breadcrumbItem2 }) => {
               <small class="hidden-xs-down hidden-sm-down">{desc} </small>
             </h2>
           </div>
-          <div class="col-lg-4 col-md-4 col-sm-12 hidden-xs-down hidden-sm-down">
+          {/* <div class="col-lg-4 col-md-4 col-sm-12 hidden-xs-down hidden-sm-down">
             <ol class="breadcrumb">
               <li class="breadcrumb-item">
                 <a href="#">Home</a>
@@ -21,7 +21,7 @@ const BreadCrumb = ({ name, icon, desc, breadcrumbItem1, breadcrumbItem2 }) => {
               </li>
               <li class="breadcrumb-item active">{breadcrumbItem2}</li>
             </ol>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
