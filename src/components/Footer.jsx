@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -8,13 +9,17 @@ const Footer = () => {
           <div className="col-lg-7">
             <div className="widget">
               <div className="footer-text text-left">
-                <a href="index.html">
-                  <img
+                <Link to="/" className="navbar-brand">
+                  {/* <img
                     src="assets/images/version/tech-footer-logo.png"
                     alt=""
                     className="img-fluid"
-                  />
-                </a>
+                  /> */}
+                  <div>
+                    <strong>Cakra </strong>
+                    <strong>Suramadu</strong>
+                  </div>
+                </Link>
                 <p>
                   Tech Blog is a technology blog, we sharing marketing, news and
                   gadget articles.
