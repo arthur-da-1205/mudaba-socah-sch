@@ -20,8 +20,9 @@ const Header = () => {
           <Link className="navbar-brand" to="/">
             {/* <img src="assets/images/version/tech-logo.png" alt="" /> */}
             <div>
-              <strong>Cakra </strong>
-              <strong>Suramadu</strong>
+              <strong>SD </strong>
+              <strong>MuDaBa </strong>
+              <strong>Socah</strong>
             </div>
           </Link>
           <div className="collapse navbar-collapse" id="navbarCollapse">
@@ -48,7 +49,7 @@ const Header = () => {
               </li> */}
               <li className="nav-item">
                 <Link className="nav-link" to="/products">
-                  Product
+                  Profile
                 </Link>
               </li>
               <li className="nav-item">
