@@ -24,6 +24,6 @@ jobs:
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
           server: 151.106.119.206
-          username: admin@sdmudabasocah.com
+          username: deploy@sdmudabasocah.com
           password: ${{ secrets.ftp_password }}
           protocol: ftps
