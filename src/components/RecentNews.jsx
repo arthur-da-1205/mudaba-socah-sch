@@ -5,7 +5,7 @@ const RecentNews = () => {
     <div className="blog-top clearfix">
       <h4 className="pull-left">
         Recent News{" "}
-        <a href="#">
+        <a href="/">
           <i className="fa fa-rss"></i>
         </a>
       </h4>

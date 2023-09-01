@@ -66,17 +66,17 @@ const Header = () => {
 
             <ul className="navbar-nav mr-2">
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <a className="nav-link" href="/">
                   <i className="fa fa-rss"></i>
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <a className="nav-link" href="/">
                   <i className="fa fa-android"></i>
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <a className="nav-link" href="/">
                   <i className="fa fa-apple"></i>
                 </a>
               </li>

@@ -182,7 +182,7 @@ const BlogPost = ({ type }) => {
                         <div class="post-sharing">
                           <ul class="list-inline">
                             <li>
-                              <a href="#" class="fb-button btn btn-primary">
+                              <a href="/" class="fb-button btn btn-primary">
                                 <i class="fa fa-facebook"></i>{" "}
                                 <span class="down-mobile">
                                   Share on Facebook
@@ -190,7 +190,7 @@ const BlogPost = ({ type }) => {
                               </a>
                             </li>
                             <li>
-                              <a href="#" class="tw-button btn btn-primary">
+                              <a href="/" class="tw-button btn btn-primary">
                                 <i class="fa fa-twitter"></i>{" "}
                                 <span class="down-mobile">
                                   Tweet on Twitter
@@ -198,7 +198,7 @@ const BlogPost = ({ type }) => {
                               </a>
                             </li>
                             <li>
-                              <a href="#" class="gp-button btn btn-primary">
+                              <a href="/" class="gp-button btn btn-primary">
                                 <i class="fa fa-google-plus"></i>
                               </a>
                             </li>
@@ -226,7 +226,7 @@ const BlogPost = ({ type }) => {
                           </a>
                         </small>
                         <small>
-                          <a href="#" title="">
+                          <a href="/" title="">
                             <i class="fa fa-eye"></i> {item.views}
                           </a>
                         </small>
