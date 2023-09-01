@@ -23,8 +23,8 @@ jobs:
       - name: 📂 Sync files
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
-          server: 151.106.119.206
-          username: deploy@sdmudabasocah.com
+          server: ${{ secrets.ftp_server }}
+          username: ${{ secrets.ftp_name }}
           password: ${{ secrets.ftp_password }}
           dangerous-clean-slate: true
           local-dir: ./build/
