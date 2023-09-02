@@ -5,7 +5,7 @@ export const dataPostMasonry = [
     imageUrl: 'assets/images/mudaba/spanduk-profile-mudaba.png',
     category: 'Berita',
     postTitle: 'Profil SD Muhammadiyah 2 Socah Bangkalan',
-    datePost: '24 July, 2023',
+    datePost: '6 Juli 2023',
     author: 'by SD Mudaba Socah',
   },
 
