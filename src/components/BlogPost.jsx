@@ -5,6 +5,8 @@ import { dataBlogBox } from "../data/PostBlogBox";
 import { dataVideoBlog } from "../data/PostVideoBlog";
 import { Link } from "react-router-dom";
 
+import "bs5-lightbox";
+
 const BlogPost = ({ type }) => {
   const PostList = () => {
     switch (type) {
@@ -259,12 +261,18 @@ const BlogPost = ({ type }) => {
           <div className="blog-grid-system">
             <div className="row">
               {dataBlogBox.map((item, index) => {
+                const count = index + 1;
+
                 return (
                   <div className="col-md-6" key={index}>
                     <div className="blog-box">
                       <div className="post-media">
-                        <a href="tech-single.html" title="">
-                          <img src={item.imgUrl} alt="" className="img-fluid" />
+                        <a href={item.imgUrl} title="" data-toggle="lightbox">
+                          <img
+                            src={`assets/images/mudaba/gallery/gallery-${count}.jpg`}
+                            alt=""
+                            className="img-fluid"
+                          />
                         </a>
                       </div>
                     </div>
