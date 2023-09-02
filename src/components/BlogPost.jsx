@@ -1,17 +1,17 @@
-import React from "react";
-import { dataBlogList } from "../data/PostBlogList";
-import { dataPostMasonry } from "../data/PostMasonry";
-import { dataBlogBox } from "../data/PostBlogBox";
-import { dataVideoBlog } from "../data/PostVideoBlog";
-import { Link } from "react-router-dom";
+import React from 'react';
+import { dataBlogList } from '../data/PostBlogList';
+import { dataPostMasonry } from '../data/PostMasonry';
+import { dataBlogBox } from '../data/PostBlogBox';
+import { dataVideoBlog } from '../data/PostVideoBlog';
+import { Link } from 'react-router-dom';
 
 const BlogPost = ({ type }) => {
   const PostList = () => {
     switch (type) {
-      case "masonry":
+      case 'masonry':
         return (
           <section className="section first-section">
-            <div className="container-fluid">
+            <div className="container">
               <div className="masonry-blog clearfix">
                 {dataPostMasonry.map((item, index) => {
                   return (
@@ -53,7 +53,7 @@ const BlogPost = ({ type }) => {
           </section>
         );
 
-      case "blog-list":
+      case 'blog-list':
         return (
           <div className="blog-list clearfix">
             {dataBlogList.map((item, index) => {
@@ -77,11 +77,7 @@ const BlogPost = ({ type }) => {
                       </h4>
                       <p>{item.desc}</p>
                       <small className="firstsmall">
-                        <a
-                          className="bg-orange"
-                          href="tech-category-01.html"
-                          title=""
-                        >
+                        <a className="bg-orange" href="tech-category-01.html" title="">
                           {item.category}
                         </a>
                       </small>
@@ -109,7 +105,7 @@ const BlogPost = ({ type }) => {
           </div>
         );
 
-      case "blog-box":
+      case 'blog-box':
         return (
           <div class="blog-grid-system">
             <div class="row">
@@ -161,7 +157,7 @@ const BlogPost = ({ type }) => {
           </div>
         );
 
-      case "video-blog":
+      case 'video-blog':
         return (
           <div class="page-wrapper">
             <div class="blog-custom-build">
@@ -182,23 +178,17 @@ const BlogPost = ({ type }) => {
                         <div class="post-sharing">
                           <ul class="list-inline">
                             <li>
-                              <a href="/" class="fb-button btn btn-primary">
-                                <i class="fa fa-facebook"></i>{" "}
-                                <span class="down-mobile">
-                                  Share on Facebook
-                                </span>
+                              <a href="/#" class="fb-button btn btn-primary">
+                                <i class="fa fa-facebook"></i> <span class="down-mobile">Share on Facebook</span>
                               </a>
                             </li>
                             <li>
-                              <a href="/" class="tw-button btn btn-primary">
-                                <i class="fa fa-twitter"></i>{" "}
-                                <span class="down-mobile">
-                                  Tweet on Twitter
-                                </span>
+                              <a href="/#" class="tw-button btn btn-primary">
+                                <i class="fa fa-twitter"></i> <span class="down-mobile">Tweet on Twitter</span>
                               </a>
                             </li>
                             <li>
-                              <a href="/" class="gp-button btn btn-primary">
+                              <a href="/#" class="gp-button btn btn-primary">
                                 <i class="fa fa-google-plus"></i>
                               </a>
                             </li>
@@ -226,7 +216,7 @@ const BlogPost = ({ type }) => {
                           </a>
                         </small>
                         <small>
-                          <a href="/" title="">
+                          <a href="/#" title="">
                             <i class="fa fa-eye"></i> {item.views}
                           </a>
                         </small>
@@ -241,7 +231,7 @@ const BlogPost = ({ type }) => {
           </div>
         );
 
-      case "gallery":
+      case 'gallery':
         return (
           <div class="blog-grid-system">
             <div class="row">
