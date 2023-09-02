@@ -59,12 +59,6 @@ h5 {
   color: rgb(202, 65, 65) !important;
 }
 
-.navbar-expand {
-  display: flex !important;
-  justify-content: space-between !important;
-  margin: 0 16px;
-}
-
 .dropdown-toggle::after {
   margin-top: -4px;
 }
@@ -74,9 +68,14 @@ h5 {
   padding: 0.6rem 0.6rem 0 !important;
 }
 
-.first-slot {
+/* .first-slot {
   float: left;
   width: 50%;
+} */
+
+.first-slot {
+  display: flex;
+  width: 100%;
 }
 
 .last-slot,
@@ -205,7 +204,6 @@ h5 {
 
 .footer {
   background-color: #000000;
-  background-image: none;
 }
 
 .footer .widget-title {

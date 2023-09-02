@@ -4,10 +4,7 @@ import Footer from '../components/Footer';
 import Header from '../components/Header';
 import Pagination from '../components/Pagination';
 import RecentNews from '../components/RecentNews';
-import FollowUs from '../components/widgets/FollowUs';
 import PopularPost from '../components/widgets/PopularPost';
-import RecentReviews from '../components/widgets/RecentReviews';
-import TrendVideos from '../components/widgets/TrendVideos';
 
 const Home = () => {
   return (
@@ -32,13 +29,7 @@ const Home = () => {
 
             <div className="col-lg-3 col-md-12 col-sm-12 col-xs-12">
               <div className="sidebar">
-                <TrendVideos />
-
                 <PopularPost />
-
-                <RecentReviews />
-
-                <FollowUs />
               </div>
             </div>
           </div>
