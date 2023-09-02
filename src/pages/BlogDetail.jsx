@@ -11,13 +11,13 @@ const BlogDetail = () => {
     <div id="wrapper">
       <Header />
 
-      <section class="section single-wrapper">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-9 col-md-12 col-sm-12 col-xs-12">
-              <div class="page-wrapper">
-                <div class="blog-title-area text-center">
-                  <span class="color-orange">
+      <section className="section single-wrapper">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-9 col-md-12 col-sm-12 col-xs-12">
+              <div className="page-wrapper">
+                <div className="blog-title-area text-center">
+                  <span className="color-orange">
                     <a href="tech-category-01.html" title="">
                       Technology
                     </a>
@@ -27,7 +27,7 @@ const BlogDetail = () => {
                     Top 10 phone applications and 2017 mobile design awards
                   </h3>
 
-                  <div class="blog-meta big-meta">
+                  <div className="blog-meta big-meta">
                     <small>
                       <a href="tech-single.html" title="">
                         21 July, 2017
@@ -40,44 +40,44 @@ const BlogDetail = () => {
                     </small>
                     <small>
                       <a href="/" title="">
-                        <i class="fa fa-eye"></i> 2344
+                        <i className="fa fa-eye"></i> 2344
                       </a>
                     </small>
                   </div>
 
-                  <div class="post-sharing">
-                    <ul class="list-inline">
+                  <div className="post-sharing">
+                    <ul className="list-inline">
                       <li>
-                        <a href="/" class="fb-button btn btn-primary">
-                          <i class="fa fa-facebook"></i>{" "}
-                          <span class="down-mobile">Share on Facebook</span>
+                        <a href="/" className="fb-button btn btn-primary">
+                          <i className="fa fa-facebook"></i>{" "}
+                          <span className="down-mobile">Share on Facebook</span>
                         </a>
                       </li>
                       <li>
-                        <a href="/" class="tw-button btn btn-primary">
-                          <i class="fa fa-twitter"></i>{" "}
-                          <span class="down-mobile">Tweet on Twitter</span>
+                        <a href="/" className="tw-button btn btn-primary">
+                          <i className="fa fa-twitter"></i>{" "}
+                          <span className="down-mobile">Tweet on Twitter</span>
                         </a>
                       </li>
                       <li>
-                        <a href="/" class="gp-button btn btn-primary">
-                          <i class="fa fa-google-plus"></i>
+                        <a href="/" className="gp-button btn btn-primary">
+                          <i className="fa fa-google-plus"></i>
                         </a>
                       </li>
                     </ul>
                   </div>
                 </div>
 
-                <div class="single-post-media">
+                <div className="single-post-media">
                   <img
                     src="assets/upload/tech_menu_08.jpg"
                     alt=""
-                    class="img-fluid"
+                    className="img-fluid"
                   />
                 </div>
 
-                <div class="blog-content">
-                  <div class="pp">
+                <div className="blog-content">
+                  <div className="pp">
                     <p>
                       In lobortis pharetra mattis. Morbi nec nibh iaculis,{" "}
                       <a href="/">bibendum augue a</a>, ultrices nulla. Nunc
@@ -125,10 +125,10 @@ const BlogDetail = () => {
                   <img
                     src="assets/upload/tech_menu_09.jpg"
                     alt=""
-                    class="img-fluid img-fullwidth"
+                    className="img-fluid img-fullwidth"
                   />
 
-                  <div class="pp">
+                  <div className="pp">
                     <h3>
                       <strong>
                         Nam non velit est. Sed lobortis arcu vitae nunc molestie
@@ -160,7 +160,7 @@ const BlogDetail = () => {
                       massa nunc.
                     </p>
 
-                    <ul class="check">
+                    <ul className="check">
                       <li>
                         Integer sit amet odio ac lectus imperdiet elementum.
                       </li>
@@ -188,7 +188,7 @@ const BlogDetail = () => {
                     <p>
                       <img
                         src="assets/upload/tech_menu_10.jpg"
-                        class="float-left"
+                        className="float-left"
                         width="380"
                         alt=""
                       />
@@ -237,7 +237,7 @@ const BlogDetail = () => {
                     <p>
                       <img
                         src="assets/upload/tech_menu_11.jpg"
-                        class="float-right"
+                        className="float-right"
                         width="380"
                         alt=""
                       />
@@ -267,8 +267,8 @@ const BlogDetail = () => {
                   </div>
                 </div>
 
-                <div class="blog-title-area">
-                  <div class="tag-cloud-single">
+                <div className="blog-title-area">
+                  <div className="tag-cloud-single">
                     <span>Tags</span>
                     <small>
                       <a href="/" title="">
@@ -292,47 +292,47 @@ const BlogDetail = () => {
                     </small>
                   </div>
 
-                  <div class="post-sharing">
-                    <ul class="list-inline">
+                  <div className="post-sharing">
+                    <ul className="list-inline">
                       <li>
-                        <a href="/" class="fb-button btn btn-primary">
-                          <i class="fa fa-facebook"></i>{" "}
-                          <span class="down-mobile">Share on Facebook</span>
+                        <a href="/" className="fb-button btn btn-primary">
+                          <i className="fa fa-facebook"></i>{" "}
+                          <span className="down-mobile">Share on Facebook</span>
                         </a>
                       </li>
                       <li>
-                        <a href="/" class="tw-button btn btn-primary">
-                          <i class="fa fa-twitter"></i>{" "}
-                          <span class="down-mobile">Tweet on Twitter</span>
+                        <a href="/" className="tw-button btn btn-primary">
+                          <i className="fa fa-twitter"></i>{" "}
+                          <span className="down-mobile">Tweet on Twitter</span>
                         </a>
                       </li>
                       <li>
-                        <a href="/" class="gp-button btn btn-primary">
-                          <i class="fa fa-google-plus"></i>
+                        <a href="/" className="gp-button btn btn-primary">
+                          <i className="fa fa-google-plus"></i>
                         </a>
                       </li>
                     </ul>
                   </div>
                 </div>
 
-                <hr class="invis1" />
+                <hr className="invis1" />
 
-                <div class="custombox prevnextpost clearfix">
-                  <div class="row">
-                    <div class="col-lg-6">
-                      <div class="blog-list-widget">
-                        <div class="list-group">
+                <div className="custombox prevnextpost clearfix">
+                  <div className="row">
+                    <div className="col-lg-6">
+                      <div className="blog-list-widget">
+                        <div className="list-group">
                           <a
                             href="tech-single.html"
-                            class="list-group-item list-group-item-action flex-column align-items-start"
+                            className="list-group-item list-group-item-action flex-column align-items-start"
                           >
-                            <div class="w-100 justify-content-between text-right">
+                            <div className="w-100 justify-content-between text-right">
                               <img
                                 src="assets/upload/tech_menu_19.jpg"
                                 alt=""
-                                class="img-fluid float-right"
+                                className="img-fluid float-right"
                               />
-                              <h5 class="mb-1">
+                              <h5 className="mb-1">
                                 5 Beautiful buildings you need to before dying
                               </h5>
                               <small>Prev Post</small>
@@ -342,20 +342,20 @@ const BlogDetail = () => {
                       </div>
                     </div>
 
-                    <div class="col-lg-6">
-                      <div class="blog-list-widget">
-                        <div class="list-group">
+                    <div className="col-lg-6">
+                      <div className="blog-list-widget">
+                        <div className="list-group">
                           <a
                             href="tech-single.html"
-                            class="list-group-item list-group-item-action flex-column align-items-start"
+                            className="list-group-item list-group-item-action flex-column align-items-start"
                           >
-                            <div class="w-100 justify-content-between">
+                            <div className="w-100 justify-content-between">
                               <img
                                 src="assets/upload/tech_menu_20.jpg"
                                 alt=""
-                                class="img-fluid float-left"
+                                className="img-fluid float-left"
                               />
-                              <h5 class="mb-1">
+                              <h5 className="mb-1">
                                 Let's make an introduction to the glorious world
                                 of history
                               </h5>
@@ -368,20 +368,20 @@ const BlogDetail = () => {
                   </div>
                 </div>
 
-                <hr class="invis1" />
+                <hr className="invis1" />
 
-                <div class="custombox authorbox clearfix">
-                  <h4 class="small-title">About author</h4>
-                  <div class="row">
-                    <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12">
+                <div className="custombox authorbox clearfix">
+                  <h4 className="small-title">About author</h4>
+                  <div className="row">
+                    <div className="col-lg-2 col-md-2 col-sm-2 col-xs-12">
                       <img
                         src="assets/upload/author.jpg"
                         alt=""
-                        class="img-fluid rounded-circle"
+                        className="img-fluid rounded-circle"
                       />
                     </div>
 
-                    <div class="col-lg-10 col-md-10 col-sm-10 col-xs-12">
+                    <div className="col-lg-10 col-md-10 col-sm-10 col-xs-12">
                       <h4>
                         <a href="/">Jessica</a>
                       </h4>
@@ -393,14 +393,14 @@ const BlogDetail = () => {
                         congue feugiat. Thanks for stop Tech Blog!
                       </p>
 
-                      <div class="topsocial">
+                      <div className="topsocial">
                         <a
                           href="/"
                           data-toggle="tooltip"
                           data-placement="bottom"
                           title="Facebook"
                         >
-                          <i class="fa fa-facebook"></i>
+                          <i className="fa fa-facebook"></i>
                         </a>
                         <a
                           href="/"
@@ -408,7 +408,7 @@ const BlogDetail = () => {
                           data-placement="bottom"
                           title="Youtube"
                         >
-                          <i class="fa fa-youtube"></i>
+                          <i className="fa fa-youtube"></i>
                         </a>
                         <a
                           href="/"
@@ -416,7 +416,7 @@ const BlogDetail = () => {
                           data-placement="bottom"
                           title="Pinterest"
                         >
-                          <i class="fa fa-pinterest"></i>
+                          <i className="fa fa-pinterest"></i>
                         </a>
                         <a
                           href="/"
@@ -424,7 +424,7 @@ const BlogDetail = () => {
                           data-placement="bottom"
                           title="Twitter"
                         >
-                          <i class="fa fa-twitter"></i>
+                          <i className="fa fa-twitter"></i>
                         </a>
                         <a
                           href="/"
@@ -432,7 +432,7 @@ const BlogDetail = () => {
                           data-placement="bottom"
                           title="Instagram"
                         >
-                          <i class="fa fa-instagram"></i>
+                          <i className="fa fa-instagram"></i>
                         </a>
                         <a
                           href="/"
@@ -440,33 +440,33 @@ const BlogDetail = () => {
                           data-placement="bottom"
                           title="Website"
                         >
-                          <i class="fa fa-link"></i>
+                          <i className="fa fa-link"></i>
                         </a>
                       </div>
                     </div>
                   </div>
                 </div>
 
-                <hr class="invis1" />
+                <hr className="invis1" />
 
-                <div class="custombox clearfix">
-                  <h4 class="small-title">You may also like</h4>
-                  <div class="row">
-                    <div class="col-lg-6">
-                      <div class="blog-box">
-                        <div class="post-media">
+                <div className="custombox clearfix">
+                  <h4 className="small-title">You may also like</h4>
+                  <div className="row">
+                    <div className="col-lg-6">
+                      <div className="blog-box">
+                        <div className="post-media">
                           <a href="tech-single.html" title="">
                             <img
                               src="assets/upload/tech_menu_04.jpg"
                               alt=""
-                              class="img-fluid"
+                              className="img-fluid"
                             />
-                            <div class="hovereffect">
-                              <span class=""></span>
+                            <div className="hovereffect">
+                              <span className=""></span>
                             </div>
                           </a>
                         </div>
-                        <div class="blog-meta">
+                        <div className="blog-meta">
                           <h4>
                             <a href="tech-single.html" title="">
                               We are guests of ABC Design Studio
@@ -486,21 +486,21 @@ const BlogDetail = () => {
                       </div>
                     </div>
 
-                    <div class="col-lg-6">
-                      <div class="blog-box">
-                        <div class="post-media">
+                    <div className="col-lg-6">
+                      <div className="blog-box">
+                        <div className="post-media">
                           <a href="tech-single.html" title="">
                             <img
                               src="assets/upload/tech_menu_06.jpg"
                               alt=""
-                              class="img-fluid"
+                              className="img-fluid"
                             />
-                            <div class="hovereffect">
-                              <span class=""></span>
+                            <div className="hovereffect">
+                              <span className=""></span>
                             </div>
                           </a>
                         </div>
-                        <div class="blog-meta">
+                        <div className="blog-meta">
                           <h4>
                             <a href="tech-single.html" title="">
                               Nostalgia at work with family
@@ -522,33 +522,33 @@ const BlogDetail = () => {
                   </div>
                 </div>
 
-                <hr class="invis1" />
+                <hr className="invis1" />
 
-                <div class="custombox clearfix">
-                  <h4 class="small-title">Leave a Reply</h4>
-                  <div class="row">
-                    <div class="col-lg-12">
-                      <form class="form-wrapper">
+                <div className="custombox clearfix">
+                  <h4 className="small-title">Leave a Reply</h4>
+                  <div className="row">
+                    <div className="col-lg-12">
+                      <form className="form-wrapper">
                         <input
                           type="text"
-                          class="form-control"
+                          className="form-control"
                           placeholder="Your name"
                         />
                         <input
                           type="text"
-                          class="form-control"
+                          className="form-control"
                           placeholder="Email address"
                         />
                         <input
                           type="text"
-                          class="form-control"
+                          className="form-control"
                           placeholder="Website"
                         />
                         <textarea
-                          class="form-control"
+                          className="form-control"
                           placeholder="Your comment"
                         ></textarea>
-                        <button type="submit" class="btn btn-primary">
+                        <button type="submit" className="btn btn-primary">
                           Submit Comment
                         </button>
                       </form>
@@ -558,8 +558,8 @@ const BlogDetail = () => {
               </div>
             </div>
 
-            <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12">
-              <div class="sidebar">
+            <div className="col-lg-3 col-md-12 col-sm-12 col-xs-12">
+              <div className="sidebar">
                 <TrendVideos />
 
                 <PopularPost />
@@ -575,7 +575,7 @@ const BlogDetail = () => {
 
       <Footer />
 
-      <div class="dmtop">Scroll to Top</div>
+      <div className="dmtop">Scroll to Top</div>
     </div>
   );
 };

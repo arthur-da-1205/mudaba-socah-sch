@@ -20,11 +20,11 @@ const Berita = () => {
         desc="Nulla felis eros, varius sit amet volutpat non."
       />
 
-      <section class="section">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12">
-              <div class="sidebar">
+      <section className="section">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-3 col-md-12 col-sm-12 col-xs-12">
+              <div className="sidebar">
                 <TrendVideos />
 
                 <PopularPost />
@@ -35,19 +35,19 @@ const Berita = () => {
               </div>
             </div>
 
-            <div class="col-lg-9 col-md-12 col-sm-12 col-xs-12">
-              <div class="page-wrapper">
+            <div className="col-lg-9 col-md-12 col-sm-12 col-xs-12">
+              <div className="page-wrapper">
                 <BlogPost type="blog-box" />
 
-                <hr class="invis3" />
+                <hr className="invis3" />
 
                 <Pagination />
 
-                <hr class="invis" />
+                <hr className="invis" />
 
                 <BlogPost type="video-blog" />
 
-                <hr class="invis" />
+                <hr className="invis" />
 
                 <Pagination />
               </div>
@@ -58,7 +58,7 @@ const Berita = () => {
 
       <Footer />
 
-      <div class="dmtop">Scroll to Top</div>
+      <div className="dmtop">Scroll to Top</div>
     </div>
   );
 };

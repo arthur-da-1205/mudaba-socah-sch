@@ -1,14 +1,14 @@
-import React from 'react';
-import { dataBlogList } from '../data/PostBlogList';
-import { dataPostMasonry } from '../data/PostMasonry';
-import { dataBlogBox } from '../data/PostBlogBox';
-import { dataVideoBlog } from '../data/PostVideoBlog';
-import { Link } from 'react-router-dom';
+import React from "react";
+import { dataBlogList } from "../data/PostBlogList";
+import { dataPostMasonry } from "../data/PostMasonry";
+import { dataBlogBox } from "../data/PostBlogBox";
+import { dataVideoBlog } from "../data/PostVideoBlog";
+import { Link } from "react-router-dom";
 
 const BlogPost = ({ type }) => {
   const PostList = () => {
     switch (type) {
-      case 'masonry':
+      case "masonry":
         return (
           <section className="section first-section">
             <div className="container">
@@ -53,7 +53,7 @@ const BlogPost = ({ type }) => {
           </section>
         );
 
-      case 'blog-list':
+      case "blog-list":
         return (
           <div className="blog-list clearfix">
             {dataBlogList.map((item, index) => {
@@ -77,7 +77,11 @@ const BlogPost = ({ type }) => {
                       </h4>
                       <p>{item.desc}</p>
                       <small className="firstsmall">
-                        <a className="bg-orange" href="tech-category-01.html" title="">
+                        <a
+                          className="bg-orange"
+                          href="tech-category-01.html"
+                          title=""
+                        >
                           {item.category}
                         </a>
                       </small>
@@ -105,24 +109,24 @@ const BlogPost = ({ type }) => {
           </div>
         );
 
-      case 'blog-box':
+      case "blog-box":
         return (
-          <div class="blog-grid-system">
-            <div class="row">
+          <div className="blog-grid-system">
+            <div className="row">
               {dataBlogBox.map((item, index) => {
                 return (
-                  <div class="col-md-6" key={index}>
-                    <div class="blog-box">
-                      <div class="post-media">
+                  <div className="col-md-6" key={index}>
+                    <div className="blog-box">
+                      <div className="post-media">
                         <a href="tech-single.html" title="">
-                          <img src={item.imgUrl} alt="" class="img-fluid" />
-                          <div class="hovereffect">
+                          <img src={item.imgUrl} alt="" className="img-fluid" />
+                          <div className="hovereffect">
                             <span></span>
                           </div>
                         </a>
                       </div>
-                      <div class="blog-meta big-meta">
-                        <span class="color-orange">
+                      <div className="blog-meta big-meta">
+                        <span className="color-orange">
                           <a href="tech-category-01.html" title="">
                             {item.category}
                           </a>
@@ -145,7 +149,7 @@ const BlogPost = ({ type }) => {
                         </small>
                         <small>
                           <a href="tech-single.html" title="">
-                            <i class="fa fa-eye"></i> {item.views}
+                            <i className="fa fa-eye"></i> {item.views}
                           </a>
                         </small>
                       </div>
@@ -157,39 +161,58 @@ const BlogPost = ({ type }) => {
           </div>
         );
 
-      case 'video-blog':
+      case "video-blog":
         return (
-          <div class="page-wrapper">
-            <div class="blog-custom-build">
+          <div className="page-wrapper">
+            <div className="blog-custom-build">
               {dataVideoBlog.map((item, index) => {
                 return (
                   <React.Fragment key={index}>
-                    <div class="blog-box">
-                      <div class="post-media">
+                    <div className="blog-box">
+                      <div className="post-media">
                         <a href="tech-single.html" title="">
-                          <img src={item.videoUrl} alt="" class="img-fluid" />
-                          <div class="hovereffect">
-                            <span class="videohover"></span>
+                          <img
+                            src={item.videoUrl}
+                            alt=""
+                            className="img-fluid"
+                          />
+                          <div className="hovereffect">
+                            <span className="videohover"></span>
                           </div>
                         </a>
                       </div>
 
-                      <div class="blog-meta big-meta text-center">
-                        <div class="post-sharing">
-                          <ul class="list-inline">
+                      <div className="blog-meta big-meta text-center">
+                        <div className="post-sharing">
+                          <ul className="list-inline">
                             <li>
-                              <a href="/#" class="fb-button btn btn-primary">
-                                <i class="fa fa-facebook"></i> <span class="down-mobile">Share on Facebook</span>
+                              <a
+                                href="/#"
+                                className="fb-button btn btn-primary"
+                              >
+                                <i className="fa fa-facebook"></i>{" "}
+                                <span className="down-mobile">
+                                  Share on Facebook
+                                </span>
                               </a>
                             </li>
                             <li>
-                              <a href="/#" class="tw-button btn btn-primary">
-                                <i class="fa fa-twitter"></i> <span class="down-mobile">Tweet on Twitter</span>
+                              <a
+                                href="/#"
+                                className="tw-button btn btn-primary"
+                              >
+                                <i className="fa fa-twitter"></i>{" "}
+                                <span className="down-mobile">
+                                  Tweet on Twitter
+                                </span>
                               </a>
                             </li>
                             <li>
-                              <a href="/#" class="gp-button btn btn-primary">
-                                <i class="fa fa-google-plus"></i>
+                              <a
+                                href="/#"
+                                className="gp-button btn btn-primary"
+                              >
+                                <i className="fa fa-google-plus"></i>
                               </a>
                             </li>
                           </ul>
@@ -217,13 +240,13 @@ const BlogPost = ({ type }) => {
                         </small>
                         <small>
                           <a href="/#" title="">
-                            <i class="fa fa-eye"></i> {item.views}
+                            <i className="fa fa-eye"></i> {item.views}
                           </a>
                         </small>
                       </div>
                     </div>
 
-                    <hr class="invis" />
+                    <hr className="invis" />
                   </React.Fragment>
                 );
               })}
@@ -231,17 +254,17 @@ const BlogPost = ({ type }) => {
           </div>
         );
 
-      case 'gallery':
+      case "gallery":
         return (
-          <div class="blog-grid-system">
-            <div class="row">
+          <div className="blog-grid-system">
+            <div className="row">
               {dataBlogBox.map((item, index) => {
                 return (
-                  <div class="col-md-6" key={index}>
-                    <div class="blog-box">
-                      <div class="post-media">
+                  <div className="col-md-6" key={index}>
+                    <div className="blog-box">
+                      <div className="post-media">
                         <a href="tech-single.html" title="">
-                          <img src={item.imgUrl} alt="" class="img-fluid" />
+                          <img src={item.imgUrl} alt="" className="img-fluid" />
                         </a>
                       </div>
                     </div>
