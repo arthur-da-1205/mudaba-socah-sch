@@ -2,6 +2,7 @@ import React from "react";
 import BreadCrumb from "../components/BreadCrumb";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
+import { Marker, StaticGoogleMap } from "react-static-google-map";
 
 const Contact = () => {
   return (
@@ -11,66 +12,68 @@ const Contact = () => {
       <BreadCrumb
         name="Contact us"
         icon="fa-envelope-open-o"
-        desc="Nulla felis eros, varius sit amet volutpat non."
         breadcrumbItem1="Contact"
       />
 
-      <section class="section wb">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-12">
-              <div class="page-wrapper">
-                <div class="row">
-                  <div class="col-lg-5">
-                    <h4>Who we are</h4>
+      <section className="section wb">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-12">
+              <div className="page-wrapper">
+                <div className="row">
+                  <div className="col-lg-5">
+                    <h4>Alamat</h4>
                     <p>
-                      Tech Blog is a personal blog for handcrafted, cameramade
-                      photography content, fashion styles from independent
-                      creatives around the world.
+                      Jl. Panglima Sudirman No.79, Barat Ps., Socah, Kec. Socah,
+                      Kabupaten Bangkalan, Jawa Timur 69161
                     </p>
 
-                    <h4>How we help?</h4>
-                    <p>
-                      Etiam vulputate urna id libero auctor maximus. Nulla
-                      dignissim ligula diam, in sollicitudin ligula congue quis
-                      turpis dui urna nibhs.{" "}
-                    </p>
+                    <h4>Kontak Admin</h4>
+                    <p>+62 812-3495-5517</p>
 
-                    <h4>Pre-Sale Question</h4>
-                    <p>
-                      Fusce dapibus nunc quis quam tempor vestibulum sit amet
-                      consequat enim. Pellentesque blandit hendrerit placerat.
-                      Integertis non.
-                    </p>
+                    <h4>Email</h4>
+                    <p>sdmuhammadiyah2bangkalan@gmail.com</p>
+
+                    <StaticGoogleMap
+                      size="600x600"
+                      className="img-fluid"
+                      apiKey="AIzaSyDu-DrvdGPW1kWrlx93XpBt7CqLpYQTLjQ"
+                    >
+                      <Marker
+                        location="6.4488387,3.5496361"
+                        color="blue"
+                        label="P"
+                      />
+                    </StaticGoogleMap>
                   </div>
-                  <div class="col-lg-7">
-                    <form class="form-wrapper">
+                  <div className="col-lg-7">
+                    <form className="form-wrapper">
                       <input
                         type="text"
-                        class="form-control"
-                        placeholder="Your name"
+                        className="form-control"
+                        placeholder="Masukkan nama anda..."
                       />
                       <input
                         type="text"
-                        class="form-control"
-                        placeholder="Email address"
+                        className="form-control"
+                        placeholder="Masukkan email anda..."
                       />
                       <input
                         type="text"
-                        class="form-control"
-                        placeholder="Phone"
+                        className="form-control"
+                        placeholder="Masukkan No.HP anda..."
                       />
                       <input
                         type="text"
-                        class="form-control"
-                        placeholder="Subject"
+                        className="form-control"
+                        placeholder="Masukkan pesan anda..."
                       />
                       <textarea
-                        class="form-control"
+                        className="form-control"
                         placeholder="Your message"
                       ></textarea>
-                      <button type="submit" class="btn btn-primary">
-                        Send <i class="fa fa-envelope-open-o"></i>
+                      <button type="submit" className="btn btn-primary">
+                        Send <i className="fa fa-envelope-open-o"></i>
                       </button>
                     </form>
                   </div>
@@ -83,7 +86,7 @@ const Contact = () => {
 
       <Footer />
 
-      <div class="dmtop">Scroll to Top</div>
+      <div className="dmtop">Scroll to Top</div>
     </div>
   );
 };

@@ -21,19 +21,19 @@ const Videos = () => {
         breadcrumbItem2="Videos"
       />
 
-      <section class="section">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-9 col-md-12 col-sm-12 col-xs-12">
+      <section className="section">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-9 col-md-12 col-sm-12 col-xs-12">
               <BlogPost type="video-blog" />
 
-              <hr class="invis" />
+              <hr className="invis" />
 
               <Pagination />
             </div>
 
-            <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12">
-              <div class="sidebar">
+            <div className="col-lg-3 col-md-12 col-sm-12 col-xs-12">
+              <div className="sidebar">
                 <TrendVideos />
 
                 <PopularPost />
@@ -49,7 +49,7 @@ const Videos = () => {
 
       <Footer />
 
-      <div class="dmtop">Scroll to Top</div>
+      <div className="dmtop">Scroll to Top</div>
     </div>
   );
 };

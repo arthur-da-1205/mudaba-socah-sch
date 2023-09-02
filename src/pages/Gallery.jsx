@@ -16,14 +16,14 @@ const Gallery = () => {
         desc="Nulla felis eros, varius sit amet volutpat non."
       />
 
-      <section class="section">
-        <div class="container py-4">
-          <div class="row">
-            <div class="col-12">
-              <div class="page-wrapper">
+      <section className="section">
+        <div className="container py-4">
+          <div className="row">
+            <div className="col-12">
+              <div className="page-wrapper">
                 <BlogPost type="gallery" />
 
-                <hr class="invis3" />
+                <hr className="invis3" />
 
                 <Pagination />
               </div>
@@ -34,7 +34,7 @@ const Gallery = () => {
 
       <Footer />
 
-      <div class="dmtop">Scroll to Top</div>
+      <div className="dmtop">Scroll to Top</div>
     </div>
   );
 };
