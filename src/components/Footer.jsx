@@ -24,7 +24,7 @@ const Footer = () => {
                   Tech Blog is a technology blog, we sharing marketing, news and
                   gadget articles.
                 </p>
-                <div className="social">
+                {/* <div className="social">
                   <a
                     href="#"
                     data-toggle="tooltip"
@@ -65,7 +65,7 @@ const Footer = () => {
                   >
                     <i className="fa fa-pinterest"></i>
                   </a>
-                </div>
+                </div> */}
 
                 <hr className="invis" />
 
@@ -88,7 +88,7 @@ const Footer = () => {
           <div className="col-lg-3 col-md-12 col-sm-12 col-xs-12">
             <div className="widget">
               <h2 className="widget-title">Popular Categories</h2>
-              <div className="link-widget">
+              {/* <div className="link-widget">
                 <ul>
                   <li>
                     <a href="#">
@@ -116,14 +116,14 @@ const Footer = () => {
                     </a>
                   </li>
                 </ul>
-              </div>
+              </div> */}
             </div>
           </div>
 
           <div className="col-lg-2 col-md-12 col-sm-12 col-xs-12">
             <div className="widget">
               <h2 className="widget-title">Copyrights</h2>
-              <div className="link-widget">
+              {/* <div className="link-widget">
                 <ul>
                   <li>
                     <a href="#">About us</a>
@@ -141,7 +141,7 @@ const Footer = () => {
                     <a href="#">License & Help</a>
                   </li>
                 </ul>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

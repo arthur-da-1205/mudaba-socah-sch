@@ -39,7 +39,7 @@ const BlogDetail = () => {
                       </a>
                     </small>
                     <small>
-                      <a href="#" title="">
+                      <a href="/" title="">
                         <i class="fa fa-eye"></i> 2344
                       </a>
                     </small>
@@ -48,19 +48,19 @@ const BlogDetail = () => {
                   <div class="post-sharing">
                     <ul class="list-inline">
                       <li>
-                        <a href="#" class="fb-button btn btn-primary">
+                        <a href="/" class="fb-button btn btn-primary">
                           <i class="fa fa-facebook"></i>{" "}
                           <span class="down-mobile">Share on Facebook</span>
                         </a>
                       </li>
                       <li>
-                        <a href="#" class="tw-button btn btn-primary">
+                        <a href="/" class="tw-button btn btn-primary">
                           <i class="fa fa-twitter"></i>{" "}
                           <span class="down-mobile">Tweet on Twitter</span>
                         </a>
                       </li>
                       <li>
-                        <a href="#" class="gp-button btn btn-primary">
+                        <a href="/" class="gp-button btn btn-primary">
                           <i class="fa fa-google-plus"></i>
                         </a>
                       </li>
@@ -80,7 +80,7 @@ const BlogDetail = () => {
                   <div class="pp">
                     <p>
                       In lobortis pharetra mattis. Morbi nec nibh iaculis,{" "}
-                      <a href="#">bibendum augue a</a>, ultrices nulla. Nunc
+                      <a href="/">bibendum augue a</a>, ultrices nulla. Nunc
                       velit ante, lacinia id tincidunt eget, faucibus nec nisl.
                       In mauris purus, bibendum et gravida dignissim, venenatis
                       commodo lacus. Duis consectetur quis nisi nec accumsan.
@@ -152,7 +152,7 @@ const BlogDetail = () => {
 
                     <p>
                       Morbi pharetra porta consequat. Aenean et diam sapien.{" "}
-                      <a href="#">Interdum et malesuada</a> fames ac ante ipsum
+                      <a href="/">Interdum et malesuada</a> fames ac ante ipsum
                       primis in faucibus. Pellentesque dictum ligula iaculis,
                       feugiat metus eu, sollicitudin ex. Quisque eu ullamcorper
                       ligula. In vel ex ac purus finibus viverra. Maecenas
@@ -271,22 +271,22 @@ const BlogDetail = () => {
                   <div class="tag-cloud-single">
                     <span>Tags</span>
                     <small>
-                      <a href="#" title="">
+                      <a href="/" title="">
                         lifestyle
                       </a>
                     </small>
                     <small>
-                      <a href="#" title="">
+                      <a href="/" title="">
                         colorful
                       </a>
                     </small>
                     <small>
-                      <a href="#" title="">
+                      <a href="/" title="">
                         trending
                       </a>
                     </small>
                     <small>
-                      <a href="#" title="">
+                      <a href="/" title="">
                         another tag
                       </a>
                     </small>
@@ -295,19 +295,19 @@ const BlogDetail = () => {
                   <div class="post-sharing">
                     <ul class="list-inline">
                       <li>
-                        <a href="#" class="fb-button btn btn-primary">
+                        <a href="/" class="fb-button btn btn-primary">
                           <i class="fa fa-facebook"></i>{" "}
                           <span class="down-mobile">Share on Facebook</span>
                         </a>
                       </li>
                       <li>
-                        <a href="#" class="tw-button btn btn-primary">
+                        <a href="/" class="tw-button btn btn-primary">
                           <i class="fa fa-twitter"></i>{" "}
                           <span class="down-mobile">Tweet on Twitter</span>
                         </a>
                       </li>
                       <li>
-                        <a href="#" class="gp-button btn btn-primary">
+                        <a href="/" class="gp-button btn btn-primary">
                           <i class="fa fa-google-plus"></i>
                         </a>
                       </li>
@@ -383,11 +383,11 @@ const BlogDetail = () => {
 
                     <div class="col-lg-10 col-md-10 col-sm-10 col-xs-12">
                       <h4>
-                        <a href="#">Jessica</a>
+                        <a href="/">Jessica</a>
                       </h4>
                       <p>
                         Quisque sed tristique felis. Lorem{" "}
-                        <a href="#">visit my website</a> amet, consectetur
+                        <a href="/">visit my website</a> amet, consectetur
                         adipiscing elit. Phasellus quis mi auctor, tincidunt
                         nisl eget, finibus odio. Duis tempus elit quis risus
                         congue feugiat. Thanks for stop Tech Blog!
@@ -395,7 +395,7 @@ const BlogDetail = () => {
 
                       <div class="topsocial">
                         <a
-                          href="#"
+                          href="/"
                           data-toggle="tooltip"
                           data-placement="bottom"
                           title="Facebook"
@@ -403,7 +403,7 @@ const BlogDetail = () => {
                           <i class="fa fa-facebook"></i>
                         </a>
                         <a
-                          href="#"
+                          href="/"
                           data-toggle="tooltip"
                           data-placement="bottom"
                           title="Youtube"
@@ -411,7 +411,7 @@ const BlogDetail = () => {
                           <i class="fa fa-youtube"></i>
                         </a>
                         <a
-                          href="#"
+                          href="/"
                           data-toggle="tooltip"
                           data-placement="bottom"
                           title="Pinterest"
@@ -419,7 +419,7 @@ const BlogDetail = () => {
                           <i class="fa fa-pinterest"></i>
                         </a>
                         <a
-                          href="#"
+                          href="/"
                           data-toggle="tooltip"
                           data-placement="bottom"
                           title="Twitter"
@@ -427,7 +427,7 @@ const BlogDetail = () => {
                           <i class="fa fa-twitter"></i>
                         </a>
                         <a
-                          href="#"
+                          href="/"
                           data-toggle="tooltip"
                           data-placement="bottom"
                           title="Instagram"
@@ -435,7 +435,7 @@ const BlogDetail = () => {
                           <i class="fa fa-instagram"></i>
                         </a>
                         <a
-                          href="#"
+                          href="/"
                           data-toggle="tooltip"
                           data-placement="bottom"
                           title="Website"
