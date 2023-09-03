@@ -111,11 +111,12 @@ h5 {
   margin-top: 1rem;
 }
 
-.blog-grid-system .color-orange a {
+.blog-grid-system .color-orange {
   color: #ffffff !important;
   font-size: 13px;
   padding: 0 0.7rem;
   border-radius: 3px;
+  width: fit-content;
 }
 
 .blog-top {
@@ -259,7 +260,7 @@ h5 {
 
 .page-title .bg-orange,
 .masonry-box:hover .blog-meta span.bg-orange,
-.color-orange a {
+.color-orange {
   background-color: #ff6347 !important;
 }
 

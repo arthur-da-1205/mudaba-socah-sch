@@ -1191,9 +1191,15 @@ hr.invis3 {
   opacity: 1;
 }
 
-.blog-list .post-media .img-thumbnail-blog {
+.blog-list .post-media .img-thumbnail-blog-list {
   width: 100%;
   height: 180px;
+  object-fit: cover;
+}
+
+.blog-box .post-media .img-thumbnail-blog-box {
+  width: 100%;
+  height: 300px;
   object-fit: cover;
 }
 
