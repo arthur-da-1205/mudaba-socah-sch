@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 const BreadCrumb = ({ name, icon, desc }) => {
   return (
@@ -7,8 +7,7 @@ const BreadCrumb = ({ name, icon, desc }) => {
         <div className="row">
           <div className="col-lg-8 col-md-8 col-sm-12 col-xs-12">
             <h2>
-              <i className={`fa ${icon} bg-orange`}></i> {name}{" "}
-              <small className="hidden-xs-down hidden-sm-down">{desc} </small>
+              <i className={`fa ${icon} bg-orange`}></i> {name} <small className="hidden-xs-down hidden-sm-down">{desc} </small>
             </h2>
           </div>
           {/* <div className="col-lg-4 col-md-4 col-sm-12 hidden-xs-down hidden-sm-down">

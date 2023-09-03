@@ -1,13 +1,10 @@
-import React from "react";
-import BlogPost from "../components/BlogPost";
-import BreadCrumb from "../components/BreadCrumb";
-import Footer from "../components/Footer";
-import Header from "../components/Header";
-import Pagination from "../components/Pagination";
-import FollowUs from "../components/widgets/FollowUs";
-import PopularPost from "../components/widgets/PopularPost";
-import RecentReviews from "../components/widgets/RecentReviews";
-import TrendVideos from "../components/widgets/TrendVideos";
+import React from 'react';
+import BlogPost from '../components/BlogPost';
+import BreadCrumb from '../components/BreadCrumb';
+import Footer from '../components/Footer';
+import Header from '../components/Header';
+import Pagination from '../components/Pagination';
+import PopularPost from '../components/widgets/PopularPost';
 
 const Berita = () => {
   return (
@@ -17,7 +14,7 @@ const Berita = () => {
       <BreadCrumb
         name="Berita"
         icon="fa-newspaper-o"
-        desc="Nulla felis eros, varius sit amet volutpat non."
+        // desc="Nulla felis eros, varius sit amet volutpat non."
       />
 
       <section className="section">
@@ -25,13 +22,7 @@ const Berita = () => {
           <div className="row">
             <div className="col-lg-3 col-md-12 col-sm-12 col-xs-12">
               <div className="sidebar">
-                <TrendVideos />
-
                 <PopularPost />
-
-                <RecentReviews />
-
-                <FollowUs />
               </div>
             </div>
 
@@ -42,14 +33,6 @@ const Berita = () => {
                 <hr className="invis3" />
 
                 <Pagination />
-
-                <hr className="invis" />
-
-                <BlogPost type="video-blog" />
-
-                <hr className="invis" />
-
-                <Pagination />
               </div>
             </div>
           </div>
@@ -58,7 +41,7 @@ const Berita = () => {
 
       <Footer />
 
-      <div className="dmtop">Scroll to Top</div>
+      <div className="dmtop">Scroll to Top.</div>
     </div>
   );
 };

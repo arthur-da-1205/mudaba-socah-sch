@@ -65,17 +65,17 @@ const BlogPost = ({ type }) => {
                     <div className="col-md-4">
                       <div className="post-media">
                         <Link to="/blogdetail">
-                          <img src={item.imgUrl} alt="" className="img-thumbnail-blog" />
+                          <img src={item.imgUrl} alt="thumbnail-blog" className="img-thumbnail-blog-list" />
                           <div className="hovereffect"></div>
                         </Link>
                       </div>
                     </div>
 
                     <div className="blog-meta big-meta col-md-8">
-                      <h4>
+                      <h4 className="text-justify">
                         <Link to="/blogdetail">{item.postTitle}</Link>
                       </h4>
-                      <p>{item.desc}</p>
+                      <p className="text-justify">{item.desc}</p>
                       <small className="firstsmall bg-orange">{item.category}</small>
                       <small>{item.datePost}</small>
                       <small>{item.author}</small>
@@ -97,40 +97,23 @@ const BlogPost = ({ type }) => {
                   <div className="col-md-6" key={index}>
                     <div className="blog-box">
                       <div className="post-media">
-                        <a href="tech-single.html" title="">
-                          <img src={item.imgUrl} alt="" className="img-fluid" />
+                        <Link to="/blogdetail">
+                          <img src={item.imgUrl} alt="thumbnail-blog-box" className="img-thumbnail-blog-box" />
                           <div className="hovereffect">
                             <span></span>
                           </div>
-                        </a>
+                        </Link>
                       </div>
                       <div className="blog-meta big-meta">
-                        <span className="color-orange">
-                          <a href="tech-category-01.html" title="">
-                            {item.category}
-                          </a>
-                        </span>
-                        <h4>
+                        <span className="color-orange">{item.category}</span>
+                        <h4 className="text-justify">
                           <Link to="/blogdetail" title="">
                             {item.postTitle}
                           </Link>
                         </h4>
-                        <p>{item.desc}</p>
-                        <small>
-                          <a href="tech-single.html" title="">
-                            {item.datePost}
-                          </a>
-                        </small>
-                        <small>
-                          <a href="tech-author.html" title="">
-                            {item.author}
-                          </a>
-                        </small>
-                        <small>
-                          <a href="tech-single.html" title="">
-                            <i className="fa fa-eye"></i> {item.views}
-                          </a>
-                        </small>
+                        <p className="text-justify">{item.desc}</p>
+                        <small>{item.datePost}</small>
+                        <small>{item.author}</small>
                       </div>
                     </div>
                   </div>
