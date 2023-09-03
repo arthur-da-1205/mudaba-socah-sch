@@ -76,27 +76,7 @@ const BlogPost = ({ type }) => {
                         <Link to="/blogdetail">{item.postTitle}</Link>
                       </h4>
                       <p>{item.desc}</p>
-                      <small className="firstsmall">
-                        <a className="bg-orange" href="tech-category-01.html" title="">
-                          {item.category}
-                        </a>
-                      </small>
-                      <small>
-                        <a href="tech-single.html" title="">
-                          {item.datePost}
-                        </a>
-                      </small>
-                      <small>
-                        <a href="tech-author.html" title="">
-                          {item.author}
-                        </a>
-                      </small>
-                      <small>
-                        <a href="tech-single.html" title="">
-                          <i className="fa fa-eye"></i> {item.views}
-                        </a>
-                        <span className="bg-orange">{item.category}</span>
-                      </small>
+                      <small className="firstsmall bg-orange">{item.category}</small>
                       <small>{item.datePost}</small>
                       <small>{item.author}</small>
                     </div>
