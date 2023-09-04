@@ -1,5 +1,5 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React from "react";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -8,7 +8,12 @@ const Header = () => {
         <div className="container">
           <div className="navbar-expand">
             <Link className="navbar-brand" to="/">
-              <img src="assets\images\mudaba\logo.png" alt="logo-mudaba" width={55} height={55} />
+              <img
+                src="assets\images\mudaba\logo.png"
+                alt="logo-mudaba"
+                width={55}
+                height={55}
+              />
             </Link>
             <button
               className="navbar-toggler align-self-center"
@@ -29,11 +34,11 @@ const Header = () => {
                   Home
                 </Link>
               </li>
-              <li className="nav-item">
+              {/* <li className="nav-item">
                 <Link className="nav-link" to="/berita">
                   Berita
                 </Link>
-              </li>
+              </li> */}
               <li className="nav-item">
                 <Link className="nav-link" to="/profile">
                   Profile
@@ -58,17 +63,32 @@ const Header = () => {
 
             <ul className="navbar-nav mr-2 d-none d-lg-flex">
               <li className="nav-item">
-                <a className="nav-link" href="https://www.facebook.com/" target="_blank" rel="noreferrer">
+                <a
+                  className="nav-link"
+                  href="https://www.facebook.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <i className="fa fa-facebook"></i>
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="https://www.instagram.com/" target="_blank" rel="noreferrer">
+                <a
+                  className="nav-link"
+                  href="https://www.instagram.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <i className="fa fa-instagram"></i>
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="https://www.youtube.com/" target="_blank" rel="noreferrer">
+                <a
+                  className="nav-link"
+                  href="https://www.youtube.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <i className="fa fa-youtube"></i>
                 </a>
               </li>
