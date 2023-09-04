@@ -107,9 +107,7 @@ const BlogPost = ({ type }) => {
                       <div className="blog-meta big-meta">
                         <span className="color-orange">{item.category}</span>
                         <h4 className="text-justify">
-                          <Link to="/blogdetail" title="">
-                            {item.postTitle}
-                          </Link>
+                          <Link to="/blogdetail">{item.postTitle}</Link>
                         </h4>
                         <p className="text-justify">{item.desc}</p>
                         <small>{item.datePost}</small>

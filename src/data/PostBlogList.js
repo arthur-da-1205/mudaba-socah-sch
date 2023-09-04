@@ -49,7 +49,7 @@ export const dataBlogList = [
     postTitle: 'Psikotest siswa baru Sekolah Muhammadiyah Socah',
     desc: 'Psikotest kali ini dilaksanakan bersama Ibu Lely Ika Mariyati, M.Psi. selaku Psikolog dan Dosen Universitas Muhammadiyah Sidoarjo dari Lembaga Psikolog Nasyiatul Aisyiah Jawa Timur',
     category: 'Berita',
-    datePost: '5 Juli2023',
+    datePost: '5 Juli 2023',
     author: 'by SD Mudaba Socah',
     // views: '33312',
   },
