@@ -2,7 +2,6 @@ import React from "react";
 import BlogPost from "../components/BlogPost";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
-import Pagination from "../components/Pagination";
 import RecentNews from "../components/RecentNews";
 import PopularPost from "../components/widgets/PopularPost";
 

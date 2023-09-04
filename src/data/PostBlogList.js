@@ -8,7 +8,7 @@ export const dataBlogList = [
     datePost: "3 Juli 2023",
     author: "by SD Mudaba Socah",
     story:
-      "SD MUDABA – Senin, 3 Juli 2023 bertempat di SD Muhammadiyah 2 Socah mengadakan Asesmen Diagnostik Kognitif yang rutin dilaksanakan pada awal pembelajaran bagi siswa baru. Asesmen diagnostik kognitif bertujuan mendiagnosis kemampuan dasar siswa dalam topik sebuah mata pelajaran. Penilaian ini dilakukan untuk memahami level kemampuan dasar anak sebelum belajar materi yang baru. Tujuannya adalah agar guru dapat menyesuaikan tingkat pembelajaran. Tentunya, semua itu disesuaikan dengan kebutuhan anak, bukan semata-mata mengejar target kurikulum.Guru dapat melakukannya setiap sebelum belajar.Adapun yang harus guru lakukan dalam penilaian ini adalah: <ul><li> Mengidentifikasi capaian kompetensi peserta didik. </li> <li>Menyesuaikan aktivitas pembelajaran dengan kemampuan rata-rata peserta didik.</li> </ul>",
+      "SD MUDABA – Senin, 3 Juli 2023 bertempat di SD Muhammadiyah 2 Socah mengadakan Asesmen Diagnostik Kognitif yang rutin dilaksanakan pada awal pembelajaran bagi siswa baru. Asesmen diagnostik kognitif bertujuan mendiagnosis kemampuan dasar siswa dalam topik sebuah mata pelajaran. Penilaian ini dilakukan untuk memahami level kemampuan dasar anak sebelum belajar materi yang baru. Tujuannya adalah agar guru dapat menyesuaikan tingkat pembelajaran. Tentunya, semua itu disesuaikan dengan kebutuhan anak, bukan semata-mata mengejar target kurikulum.Guru dapat melakukannya setiap sebelum belajar.Adapun yang harus guru lakukan dalam penilaian ini adalah: <ul><li> Mengidentifikasi capaian kompetensi peserta didik. </li> <li>Menyesuaikan aktivitas pembelajaran dengan kemampuan rata-rata peserta didik.</li> </ul  >",
     // views: '1114',
   },
 

@@ -1,5 +1,5 @@
 import React from "react";
-import { dataBlogList } from "../data/PostBlogList";
+import { dataBlogDetail } from "../data/BlogDetail";
 import { dataPostMasonry } from "../data/PostMasonry";
 import { dataBlogBox } from "../data/PostBlogBox";
 import { dataVideoBlog } from "../data/PostVideoBlog";
@@ -64,7 +64,7 @@ const BlogPost = ({ type }) => {
       case "blog-list":
         return (
           <div className="blog-list clearfix">
-            {dataBlogList.map((item, index) => {
+            {dataBlogDetail.map((item, index) => {
               return (
                 <React.Fragment key={index}>
                   <div className="blog-box row">

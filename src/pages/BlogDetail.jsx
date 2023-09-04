@@ -1,11 +1,8 @@
 import React from "react";
+import { useLocation } from "react-router-dom";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
-import FollowUs from "../components/widgets/FollowUs";
 import PopularPost from "../components/widgets/PopularPost";
-import RecentReviews from "../components/widgets/RecentReviews";
-import TrendVideos from "../components/widgets/TrendVideos";
-import { useLocation } from "react-router-dom";
 
 const BlogDetail = () => {
   const { state } = useLocation();
@@ -33,12 +30,12 @@ const BlogDetail = () => {
                   <div className="blog-meta big-meta">
                     <small>
                       <a href="tech-single.html" title="">
-                        21 July, 2017
+                        {state.datePost}
                       </a>
                     </small>
                     <small>
                       <a href="tech-author.html" title="">
-                        by Jessica
+                        {state.author}
                       </a>
                     </small>
                     <small>
@@ -77,7 +74,7 @@ const BlogDetail = () => {
 
                 <div className="blog-content">
                   <div className="pp">
-                    <p>{state.story}</p>
+                    <p>{state.content}</p>
                   </div>
                 </div>
 
