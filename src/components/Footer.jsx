@@ -18,8 +18,6 @@ const Footer = () => {
         <hr color="grey" />
 
         <div className="d-flex justify-content-between">
-          <div className="text-white">&copy; 2023 SD Muhammadiyah Socah.</div>
-
           <div className="social">
             <a href="/#" data-toggle="tooltip" data-placement="bottom" title="Facebook">
               <i className="fa fa-facebook mx-2 text-white"></i>
@@ -31,6 +29,8 @@ const Footer = () => {
               <i className="fa fa-youtube mx-2 text-white"></i>
             </a>
           </div>
+
+          <div className="text-white">&copy; 2023 SD Muhammadiyah Socah.</div>
         </div>
       </div>
     </footer>
