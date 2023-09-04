@@ -1,10 +1,10 @@
-import React from 'react';
-import BlogPost from '../components/BlogPost';
-import Footer from '../components/Footer';
-import Header from '../components/Header';
-import Pagination from '../components/Pagination';
-import RecentNews from '../components/RecentNews';
-import PopularPost from '../components/widgets/PopularPost';
+import React from "react";
+import BlogPost from "../components/BlogPost";
+import Footer from "../components/Footer";
+import Header from "../components/Header";
+import Pagination from "../components/Pagination";
+import RecentNews from "../components/RecentNews";
+import PopularPost from "../components/widgets/PopularPost";
 
 const Home = () => {
   return (
@@ -24,7 +24,7 @@ const Home = () => {
 
               <hr className="invis" />
 
-              <Pagination />
+              {/* <Pagination /> */}
             </div>
 
             <div className="col-lg-3 col-md-12 col-sm-12 col-xs-12">
